@@ -106,7 +106,7 @@ class Player {
         ctx.beginPath();
         ctx.fillStyle = this.color;
         ctx.fillRect(this.x, this.y, this.width, this.height);
-        ctx.font = "25px Arial";
+        ctx.font = "25px Unbounded";
         ctx.fillStyle = this.color;
         ctx.textAlign = "center";
         ctx.fillText(this.life, this.x + this.width / 2, canvas.height - 60);
@@ -203,7 +203,7 @@ class Enemy {
         ctx.beginPath();
         ctx.fillStyle = this.color;
         ctx.fillRect(this.x, this.y, this.width, this.height);
-        ctx.font = "25px Arial";
+        ctx.font = "25px Unbounded";
         ctx.fillStyle = this.color;
         ctx.textAlign = "center";
         ctx.fillText(this.life, this.x + this.width / 2, this.y - 20);
@@ -273,7 +273,7 @@ class DrawText {
     draw() {
         ctx.beginPath();
         ctx.fillStyle = this.color;
-        ctx.font = `${this.size}px Arial`;
+        ctx.font = `${this.size}px Unbounded`;
         ctx.fillText(this.text, this.x, this.y);
         ctx.closePath();
     }
@@ -282,7 +282,7 @@ class DrawText {
         ctx.beginPath();
         ctx.globalAlpha = this.alpha;
         ctx.fillStyle = this.color;
-        ctx.font = `${this.size}px Arial`;
+        ctx.font = `${this.size}px Unbounded`;
         ctx.textAlign = "center";
         ctx.fillText(this.text, this.x, this.y + this.size / 4);
         ctx.closePath();

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -8,9 +8,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Comic Neue", cursive;
+    font-family: "Unbounded", cursive;
     font-size: 25px;
-	font-weight: bold;
     background: #000;
 }
 
@@ -51,7 +50,7 @@ canvas {
 }
 
 .scoreboard button {
-	font-family: "Comic Neue", cursive;
+	font-family: "Unbounded", cursive;
 	font-weight: bold;
     display: block;
     width: 70%;
